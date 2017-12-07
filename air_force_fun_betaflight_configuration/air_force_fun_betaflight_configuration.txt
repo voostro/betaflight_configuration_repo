@@ -2,7 +2,7 @@
 # Betaflight / BETAFLIGHTF4 (BFF4) 3.2.1 Oct 15 2017 / 19:28:38 (434db9a36) MSP API: 1.36
 
 # name
-name -
+name Air Force Fun
 
 # resources
 resource BEEPER 1 B04
@@ -288,11 +288,11 @@ mode_color 7 0 3
 # aux
 aux 0 0 0 1950 2050
 aux 1 1 1 925 1050
-aux 2 13 2 1950 2075
-aux 3 28 1 1100 2100
-aux 4 35 1 1450 1550
-aux 5 36 2 925 1050
-aux 6 0 0 900 900
+aux 2 4 3 1950 2075
+aux 3 13 2 1950 2075
+aux 4 28 1 1100 2100
+aux 5 35 1 1450 1550
+aux 6 36 2 925 1050
 aux 7 0 0 900 900
 aux 8 0 0 900 900
 aux 9 0 0 900 900
@@ -445,7 +445,7 @@ set use_cbat_alerts = OFF
 set cbat_alert_percent = 10
 set vbat_cutoff_percent = 100
 set vbat_scale = 110
-set ibata_scale = 400
+set ibata_scale = 800
 set ibata_offset = 0
 set ibatv_scale = 0
 set ibatv_offset = 0
@@ -594,8 +594,8 @@ set dterm_notch_cutoff = 160
 set vbat_pid_gain = ON
 set pid_at_min_throttle = ON
 set anti_gravity_threshold = 350
-set anti_gravity_gain = 1000
-set setpoint_relax_ratio = 100
+set anti_gravity_gain = 2500
+set setpoint_relax_ratio = 80
 set dterm_setpoint_weight = 0
 set acc_limit_yaw = 100
 set acc_limit = 0
@@ -648,7 +648,7 @@ set gps_nav_d = 83
 rateprofile 1
 
 set rc_rate = 100
-set rc_rate_yaw = 100
+set rc_rate_yaw = 90
 set rc_expo = 50
 set rc_expo_yaw = 50
 set thr_mid = 50
