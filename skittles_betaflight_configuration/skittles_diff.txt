@@ -1,4 +1,4 @@
-# Betaflight / OMNIBUS (OMNI) 3.2.2 Nov 11 2017 / 00:38:45 (77782e602) MSP API: 1.36
+# Betaflight / OMNIBUS (OMNI) 3.2.3 Dec 11 2017 / 07:56:17 (cb962eda1) MSP API: 1.36
 name skittles
 
 feature -RX_PPM
@@ -90,4 +90,4 @@ set thr_expo = 10
 set roll_srate = 76
 set pitch_srate = 76
 
-#
+# 
