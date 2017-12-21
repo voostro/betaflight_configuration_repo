@@ -126,6 +126,7 @@ set vbat_pid_gain = ON
 set anti_gravity_gain = 3000
 set setpoint_relax_ratio = 80
 set p_pitch = 73
+set i_pitch = 52
 set d_pitch = 45
 set p_roll = 74
 set i_roll = 42
