@@ -31,7 +31,23 @@ map TAER1234
 
 # serial
 serial 0 1024 115200 57600 0 115200
-serial 2 35 1 1450 1550
+serial 2 4 115200 57600 0 115200
+serial 30 2048 115200 57600 0 115200
+serial 31 32 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1950 2050
+aux 1 1 1 925 1050
+aux 2 4 1 1900 2100
+aux 3 13 2 1950 2075
+aux 4 28 1 1100 2100
+aux 5 35 1 1450 1550
 aux 6 36 2 925 1050
 
 # adjrange
@@ -56,7 +72,7 @@ set motor_pwm_protocol = DSHOT1200
 set bat_capacity = 1300
 set current_meter = ADC
 set battery_meter = ADC
-set ibata_scale = 243
+set ibata_scale = 250
 set beeper_dshot_beacon_tone = 2
 set yaw_motors_reversed = ON
 set small_angle = 180
@@ -104,30 +120,27 @@ set osd_stat_tim_1 = ON
 set vcd_video_system = 2
 
 # profile
-profile 1
+profile 0
 
 set dterm_lowpass_type = PT1
 set vbat_pid_gain = ON
-set anti_gravity_gain = 3500
-set setpoint_relax_ratio = 89
-set p_pitch = 73
-set i_pitch = 52
-set d_pitch = 42
-set p_roll = 74
-set i_roll = 42
-set d_roll = 40
-set p_yaw = 71
-set d_yaw = 31
+set anti_gravity_gain = 3000
+set p_pitch = 69
+set i_pitch = 54
+set d_pitch = 41
+set p_roll = 52
+set i_roll = 35
+set i_yaw = 49
 
 # rateprofile
 rateprofile 1
 
-set rc_rate_yaw = 90
-set rc_expo = 35
-set rc_expo_yaw = 35
+set rc_rate_yaw = 120
+set rc_expo = 25
+set rc_expo_yaw = 20
 set thr_expo = 20
 set roll_srate = 75
 set pitch_srate = 75
-set yaw_srate = 68
+set yaw_srate = 58
 
 #
