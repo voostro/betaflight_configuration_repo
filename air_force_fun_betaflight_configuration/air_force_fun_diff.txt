@@ -113,8 +113,8 @@ set osd_battery_usage_pos = 2057
 set osd_disarmed_pos = 138
 set osd_nheading_pos = 311
 set osd_nvario_pos = 279
-set osd_esc_tmp_pos = 2458
-set osd_esc_rpm_pos = 2432
+set osd_esc_tmp_pos = 410
+set osd_esc_rpm_pos = 384
 set osd_stat_max_spd = OFF
 set osd_stat_tim_1 = ON
 set vcd_video_system = 2
@@ -135,12 +135,11 @@ set i_yaw = 49
 # rateprofile
 rateprofile 1
 
+set rc_rate = 105
 set rc_rate_yaw = 120
-set rc_expo = 25
+set rc_expo = 20
 set rc_expo_yaw = 20
 set thr_expo = 20
-set roll_srate = 75
-set pitch_srate = 75
 set yaw_srate = 58
 
 #
