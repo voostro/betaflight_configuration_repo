@@ -1,0 +1,29 @@
+# diff
+# Betaflight / NAZE (AFNA) 3.2.0 Aug 28 2017 / 12:00:53 (b2cd7294e)
+
+feature ANTI_GRAVITY
+map TAER1234
+aux 0 0 1 1950 2050
+aux 1 1 0 900 1100
+aux 2 2 0 1400 1600
+aux 3 28 0 1900 2100
+set motor_pwm_protocol = BRUSHED
+set yaw_motors_reversed = ON
+profile 0
+
+set dterm_lowpass_type = PT1
+set p_pitch = 83
+set d_pitch = 75
+set p_roll = 65
+set d_roll = 65
+set p_yaw = 95
+rateprofile 0
+
+set rc_expo = 45
+set rc_expo_yaw = 45
+set thr_mid = 75
+set roll_srate = 78
+set pitch_srate = 78
+set yaw_srate = 78
+
+# 
