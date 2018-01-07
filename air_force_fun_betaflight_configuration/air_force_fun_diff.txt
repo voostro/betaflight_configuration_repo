@@ -126,11 +126,11 @@ set dterm_lowpass_type = PT1
 set vbat_pid_gain = ON
 set anti_gravity_gain = 3000
 set p_pitch = 69
-set i_pitch = 54
+set i_pitch = 69
 set d_pitch = 41
-set p_roll = 52
+set p_roll = 55
 set i_roll = 35
-set i_yaw = 49
+set i_yaw = 54
 
 # rateprofile
 rateprofile 1
@@ -142,4 +142,4 @@ set rc_expo_yaw = 20
 set thr_expo = 20
 set yaw_srate = 58
 
-#
+# 
