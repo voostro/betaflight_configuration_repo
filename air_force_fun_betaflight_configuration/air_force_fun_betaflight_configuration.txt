@@ -490,7 +490,7 @@ set alt_hold_fast_change = ON
 set deadband = 0
 set yaw_deadband = 0
 set yaw_control_reversed = OFF
-set pid_process_denom = 2
+set pid_process_denom = 1
 set tlm_switch = OFF
 set tlm_inverted = OFF
 set tlm_halfduplex = ON
@@ -615,13 +615,13 @@ set pidsum_limit = 500
 set pidsum_limit_yaw = 400
 set yaw_lowpass = 0
 set p_pitch = 69
-set i_pitch = 69
-set d_pitch = 41
-set p_roll = 57
-set i_roll = 35
+set i_pitch = 75
+set d_pitch = 39
+set p_roll = 62
+set i_roll = 40
 set d_roll = 30
 set p_yaw = 70
-set i_yaw = 54
+set i_yaw = 60
 set d_yaw = 20
 set p_alt = 50
 set i_alt = 0
@@ -648,16 +648,16 @@ set gps_nav_d = 83
 # rateprofile
 rateprofile 1
 
-set rc_rate = 105
+set rc_rate = 100
 set rc_rate_yaw = 120
-set rc_expo = 20
-set rc_expo_yaw = 20
+set rc_expo = 35
+set rc_expo_yaw = 35
 set thr_mid = 50
 set thr_expo = 20
 set roll_srate = 70
 set pitch_srate = 70
 set yaw_srate = 58
 set tpa_rate = 40
-set tpa_breakpoint = 1500
+set tpa_breakpoint = 1325
 
 # 
