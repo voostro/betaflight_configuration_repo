@@ -1,0 +1,53 @@
+# version
+# Betaflight / OMNIBUSF4SD 3.1.5 Feb  7 2017 / 22:20:49 (4646f9d)
+
+# name
+
+# resources
+
+# mixer
+mixer HEX6X
+
+# servo
+
+# servo mix
+
+
+# feature
+
+# beeper
+
+# map
+
+# serial
+serial 0 64 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1300 1700
+
+# adjrange
+
+# rxrange
+
+# rxfail
+
+# master
+set motor_pwm_protocol = DSHOT600
+set serialrx_provider = SBUS
+
+# profile
+profile 0
+
+rateprofile 0
+
+# rateprofile
+rateprofile 0
+
+
+# 

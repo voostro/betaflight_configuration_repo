@@ -128,10 +128,11 @@ set anti_gravity_gain = 3500
 set setpoint_relax_ratio = 55
 set dterm_setpoint_weight = 50
 set p_pitch = 69
-set i_pitch = 75
-set d_pitch = 39
-set p_roll = 62
-set i_yaw = 60
+set i_pitch = 79
+set d_pitch = 41
+set p_roll = 64
+set i_roll = 41
+set i_yaw = 63
 
 # rateprofile
 rateprofile 1
@@ -140,8 +141,9 @@ set rc_rate_yaw = 120
 set rc_expo = 35
 set rc_expo_yaw = 35
 set thr_expo = 20
+set pitch_srate = 72
 set yaw_srate = 58
 set tpa_rate = 40
 set tpa_breakpoint = 1325
 
-# 
+#

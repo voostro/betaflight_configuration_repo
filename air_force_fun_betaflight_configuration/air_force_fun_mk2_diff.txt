@@ -1,0 +1,50 @@
+# version
+# Betaflight / OMNIBUSF4SD (OBSD) 3.2.4 Jan 10 2018 / 23:02:31 (90d32fd56) MSP API: 1.36
+
+# name
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature -RX_SERIAL
+
+# beeper
+
+# map
+
+# serial
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+
+# profile
+profile 0
+
+
+# rateprofile
+rateprofile 0
+
+
+# 
