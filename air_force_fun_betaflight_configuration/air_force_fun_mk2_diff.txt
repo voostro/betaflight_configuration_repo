@@ -2,8 +2,10 @@
 # Betaflight / OMNIBUSF4SD (OBSD) 3.2.4 Jan 10 2018 / 23:02:31 (90d32fd56) MSP API: 1.36
 
 # name
+name Air Force Fun
 
 # resources
+resource PWM 3 NONE
 
 # mixer
 
@@ -13,21 +15,35 @@
 
 
 # feature
-feature -RX_SERIAL
+feature SOFTSERIAL
+feature LED_STRIP
+feature ANTI_GRAVITY
+feature DYNAMIC_FILTER
 
 # beeper
 
 # map
+map TAER1234
 
 # serial
+serial 0 64 115200 57600 0 115200
+serial 2 2048 115200 57600 0 115200
 
 # led
+led 0 7,9:D:C:4
 
 # color
 
 # mode_color
 
 # aux
+aux 0 0 0 1950 2050
+aux 1 1 1 925 1050
+aux 2 13 2 1950 2075
+aux 3 15 255 900 2100
+aux 4 28 1 1100 2100
+aux 5 35 1 1450 1550
+aux 6 36 2 925 1050
 
 # adjrange
 
@@ -38,13 +54,90 @@ feature -RX_SERIAL
 # rxfail
 
 # master
+set gyro_notch1_hz = 0
+set gyro_notch1_cutoff = 0
+set gyro_notch2_hz = 0
+set gyro_notch2_cutoff = 0
+set baro_hardware = NONE
+set min_check = 1005
+set rssi_channel = 16
+set serialrx_provider = SBUS
+set min_throttle = 1083
+set dshot_idle_value = 400
+set motor_pwm_protocol = DSHOT600
+set bat_capacity = 1300
+set ibata_scale = 300
+set beeper_dshot_beacon_tone = 2
+set yaw_motors_reversed = ON
+set small_angle = 180
+set pid_process_denom = 1
+set osd_rssi_alarm = 70
+set osd_cap_alarm = 700
+set osd_alt_alarm = 114
+set osd_tim1 = 2562
+set osd_vbat_pos = 2072
+set osd_rssi_pos = 2049
+set osd_tim_1_pos = 352
+set osd_flymode_pos = 333
+set osd_throttle_pos = 225
+set osd_vtx_channel_pos = 377
+set osd_ah_sbar = 200
+set osd_ah_pos = 200
+set osd_current_pos = 385
+set osd_mah_drawn_pos = 353
+set osd_craft_name_pos = 362
+set osd_gps_speed_pos = 218
+set osd_gps_lon_pos = 82
+set osd_gps_lat_pos = 65
+set osd_gps_sats_pos = 51
+set osd_home_dir_pos = 302
+set osd_home_dist_pos = 303
+set osd_compass_bar_pos = 266
+set osd_altitude_pos = 247
+set osd_pid_roll_pos = 64
+set osd_pid_pitch_pos = 32
+set osd_pid_yaw_pos = 96
+set osd_debug_pos = 1
+set osd_power_pos = 321
+set osd_pidrate_profile_pos = 345
+set osd_avg_cell_voltage_pos = 76
+set osd_pit_ang_pos = 257
+set osd_rol_ang_pos = 289
+set osd_battery_usage_pos = 2057
+set osd_disarmed_pos = 138
+set osd_nheading_pos = 311
+set osd_nvario_pos = 279
+set osd_esc_tmp_pos = 410
+set osd_esc_rpm_pos = 384
+set osd_stat_max_spd = OFF
+set osd_stat_tim_1 = ON
+set vcd_video_system = 2
 
 # profile
-profile 0
+profile 1
 
+set vbat_pid_gain = ON
+set anti_gravity_gain = 3500
+set setpoint_relax_ratio = 57
+set dterm_setpoint_weight = 50
+set p_pitch = 66
+set i_pitch = 88
+set d_pitch = 51
+set p_roll = 51
+set i_roll = 48
+set i_yaw = 61
+set d_yaw = 23
 
 # rateprofile
 rateprofile 0
 
+set rc_rate_yaw = 120
+set rc_expo = 40
+set rc_expo_yaw = 35
+set thr_expo = 20
+set pitch_srate = 72
+set yaw_srate = 58
+set tpa_rate = 40
+set tpa_breakpoint = 1325
 
 # 
