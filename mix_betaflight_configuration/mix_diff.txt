@@ -2,6 +2,7 @@
 # Betaflight / OMNIBUSF4SD (OBSD) 3.2.4 Jan 10 2018 / 23:02:31 (90d32fd56) MSP API: 1.36
 
 # name
+name mix
 
 # resources
 resource MOTOR 1 A02
@@ -109,10 +110,15 @@ profile 0
 
 set dterm_lowpass_type = PT1
 set vbat_pid_gain = ON
-set anti_gravity_threshold = 450
 set anti_gravity_gain = 3500
-set setpoint_relax_ratio = 94
-set dterm_setpoint_weight = 59
+set setpoint_relax_ratio = 56
+set dterm_setpoint_weight = 50
+set p_pitch = 67
+set i_pitch = 64
+set d_pitch = 37
+set p_roll = 49
+set i_roll = 49
+set i_yaw = 48
 
 # rateprofile
 rateprofile 0
@@ -124,5 +130,6 @@ set thr_expo = 20
 set pitch_srate = 72
 set yaw_srate = 58
 set tpa_rate = 40
+set tpa_breakpoint = 1700
 
-# 
+#
